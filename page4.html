@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style type="text/css">
+*{
+	padding: 0;
+	margin: 0;
+}
+li{
+list-style-type: none; 
+}
+.clear{
+	clear: both;
+}
+#page{
+	width: 1300px;
+	margin: auto;
+	border: 0px solid #bbbbbb;
+}
+header{
+	width:1300px;
+	height: 100px;
+	margin-top: 10px;
+	border: 0px solid;
+}
+#logo{
+	float: left;
+	margin-top: 10px;
+}
+#top{
+	float: right;
+	margin: 30px 20px 0 0; 
+}
+nav{
+	font-weight: bold;
+	width: 1300px;
+	height: 70px;
+	margin-top: 10px;
+	border-top: solid 1px #eeeeee;
+	border-bottom: solid 1px #eeeeee;
+}
+nav li{
+	padding-bottom: 27px;
+		display:inline-block;
+		margin: 20px 30px;
+}
+nav li a:link{
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+nav li a:visited{
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+nav li a:hover{
+	color: #21a089;
+}
+nav li:hover{
+	color: #21a089;
+	border-bottom: 2px #21a089 solid;
+}
+section{
+	margin-left:270px;
+	width: 1030px;
+}
+h1{
+	border-bottom: 2px black solid;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#sub1{
+border-bottom: 1px solid gray;
+height: 60px;
+padding:35px 0px 0px 0px; 
+font-size: 13px; 
+}
+#sub2{
+	float:right; 
+}
+#sub2 select{
+	padding-left: 10px;
+	width: 150px;
+	height: 39px;
+}
+#sub2 input{
+	height: 35px;
+	width: 230px;
+	font-size: 20px
+}
+#sub2 button{
+	background-color: white;
+	height: 38px;
+}
+#sub3{
+	margin-top: 30px;
+	padding-bottom: 30px
+}
+#sub3 li{
+	margin: 10px 10px 10px 0px;
+	border: #eeeeee solid 1px;
+	display: inline-block;
+	
+}#sub3 p{
+	padding: 20px 0px 20px 0px;
+	text-align: center;
+}
+#sub3 img{
+	width: 325px;
+	height: 200px;
+}
+#sub3 img:hover{
+	transform: scale(1.1);
+	transition: transform 0.5s;
+}
+.sub4{
+	width:325px;
+	height: 200px;
+	overflow: hidden;
+}
+aside{
+	width: 220px;
+	float: left;
+	margin-top:30px; 
+	border: 0px solid #bbbbbb;
+	font-size: 15px;
+
+}
+.aside1{
+	padding: 10px;
+	border-bottom: 1px solid #eeeeee;
+}
+#asi1{
+	font-size: 23px;
+	padding-bottom: 10px;
+}
+#asi2{
+	width: 220px;
+	height: 20px;
+	padding: 10px;
+	color: white;
+	background-color: #21a089;
+}
+footer{
+	width: 1300px;
+	height: 100px;
+	margin: 10px 0px 10px 0;
+	border: solid 0px #bbbbbb;
+}
+#address{
+float: left;
+margin: 10px 0px 0px 10px;
+}
+#customer{
+float: right;
+margin: 10px 0px 0px 180px;
+}
+</style>
+</head>
+<body id="page">
+<header>
+<div id="logo">
+	<a href="https://gunju0415.github.io"><img src="./img/logo.png"></a>
+</div>
+<div id="top">
+	로그인 | 회원가입 | <a href="./mypage.html">마이페이지</a> | 고객센터
+</div>
+</header>
+<div class="clear"></div>
+<nav>
+	<ul>
+		<li><a href="./page1.html"> 감염병</a></li>
+		<li><a href="./page2.html">건강정보</a></li>
+		<li><a href="./page3.html"> 정책정보</a></li>
+		<li><a href="./gunju2.html">연구개발</a></li>
+		<li style="border-bottom: 2px #21a089 solid;"><a href="./page4.html"><span style="color:#21a089;">알림.자료</span></a></li>
+		<li>간행물.통계</li>
+		<li>민원.정보공개</li>
+		<li>기관소개</li>
+		<li>사업별홈페이지</li>
+	</ul>
+</nav>
+<aside>
+	<div id="asi1">알림.자료</div>
+	<div id="asi2">이달의건강소식</div>
+		<div class="aside1">
+		보도자료</div>
+		<div class="aside1">
+		포토뉴스
+		</div>
+		<div class="aside1">
+		홍보자료</div>
+		<div class="aside1">
+		공지사항</div>
+		<div class="aside1">
+		공고/공시</div>
+		<div class="aside1">
+		채용공고</div>
+		<div class="aside1">
+		법령.지침.서식</div>
+</aside>
+<section>
+	<h1>이달의건강소식</h1>
+</section>
+<section id="sub1">
+	전체 <span style="font-weight: bold;">97</span>건, 현재 페이지 <span style="font-weight: bold; color: red;">1</span>/<span style="font-weight: bold;">11</span>
+	 <form id="sub2">
+	 <select>	
+	 	<option>전체</option>
+	 	<option>제목</option>
+	 	<option>작성자</option>
+	 </select>
+	 <input type="text" name="search" >
+	 <button type="button">검색</button>
+	</form>
+</section>
+<section id="sub3">
+	<ul>
+		<li><div class="sub4"><img src="./img/page4_1.png"></div><p>
+			코로나19 예방과 함께 알아두어...</li>
+		<li><div class="sub4"><img src="./img/page4_2.png"></div><p>
+				새로운 일상, 생활속 거리두기...
+		</p></li>
+		<li><div class="sub4"><img src="./img/page4_3.png"></div><p>
+			새로운 일상, 생활속 거리두기...
+		</p></li>
+	</ul>
+	<ul>
+		<li><div class="sub4"><img src="./img/page4_4.png"></div></div><p>
+			호기심이 많은 우리 아이, 질식사고...
+		</p></li>
+		<li><div class="sub4"><img src="./img/page4_5.png"></div></div><p>
+			추운 겨울 화상이 웬 말? 겨울철 조심...
+		</p></li>
+		<li><div class="sub4"><img src="./img/page4_6.png"></div></div><p>
+			갑자기 기온이 뚝! 하고 떨어진다면?...
+		</p></li>
+	</ul>
+	<ul>
+		<li><div class="sub4"><img src="./img/page4_7.png"></div><p>
+		우리 아이 감기 증상, 그냥 둬도 괜찮...
+	</p></li>
+		<li><div class="sub4"><img src="./img/page4_8.png"></div><p>
+			겨울철 감염병 이렇게	예방하세요!
+		</p></li>
+		<li><div class="sub4"><img src="./img/page4_9.png"></div><p>
+			가을철 불청객 알래르기비염
+		</p></li>
+	</ul>
+	<hr>
+</section>
+
+<footer>
+	<div id="address">
+		<img src="./img/address.png" width="600">
+	</div>
+	<div id="customer">
+		<img src="./img/customer.png" width="500">
+	</div>
+</footer>
+</body>
+</html>
